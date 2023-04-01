@@ -1,11 +1,11 @@
 vocabulary = {
     'ahkatlio': {
-        'numeric_value': 1123,
-        'english_meaning': 'example'
+        'numeric_value': 1.61804,
+        'english_meaning': 'nature'
     },
     'ihaoak': {
         'numeric_value': 3.1416,
-        'english_meaning': 'pi'
+        'english_meaning': 'time'
     },
     
 }
