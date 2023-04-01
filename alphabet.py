@@ -37,6 +37,3 @@ def num_to_akuk(num):
                 akuk += char
                 break
     return akuk
-
-tt = input('text')
-print(num_to_akuk(tt)) 
