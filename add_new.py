@@ -9,7 +9,11 @@ from tkinter import *
 # Function to handle the save button click
 def save_to_excel():
     # Get the input values
-    num = float(num_entry.get())
+    try:
+        num = int(num_entry.get())
+    except ValueError:
+        num = float(num_entry.get())
+    
     meaning = meaning_entry.get()
 
     # Load the workbook

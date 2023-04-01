@@ -9,8 +9,7 @@ akuk_dict = {
     't': '8',
     'p': '9',
     'l': '0',
-    'h': '.',
-    ' ':' '
+    'h': '.'
 }
 
 def akuk_to_num(text):
